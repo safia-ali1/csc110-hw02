@@ -1,10 +1,18 @@
 # Task 1.1:
 #  Complete the function "read_two_ints" below:
-def read_two_ints():
+def read_two_ints(A,B):
+   x=int(input("give me x: "))
+   """use the input function to read one number using the prompt(give me x:)"""
+   y=int(input("give me y: "))
+    """use the input function to read one number using the prompt(give me y:)"""
+
+read_two_ints=
+   return a,b
     # ADD a Docstring for this function
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
-    return 1, 2
+ 
+
 
 # Task 2.1:
 #  Complete the function "compute_multadd" below:
