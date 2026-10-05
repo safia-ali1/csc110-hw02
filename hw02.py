@@ -2,9 +2,9 @@
 #  Complete the function "read_two_ints" below:
 def read_two_ints():
     '''
-    line 4 is storing a
-    line 6 is storing b
-    line 8 is returning a and b back to the function
+    line 9 is storing a
+    line 11 is storing b
+    line 13 is returning a and b back to the function
     '''
     a = int(input( "give me x: "))
     #storing A
@@ -28,9 +28,9 @@ def read_two_ints():
 #  Complete the function "compute_multadd" below:
 def compute_multadd(a, b):
    '''
-lines 33+35 store a*b into mult_result and then print it
-lines 36+37 store a+b into add_result and then print it
-line 39 is then storing and returning mult_result/add_result to the function
+lines 38+39 store a*b into mult_result and then print it
+lines 41+42 store a+b into add_result and then print it
+line 44 is then storing and returning mult_result/add_result to the function
    '''
     # ADD a Docstring for this function
     # the pass shown below is a placeholder to make sure this runs
@@ -67,9 +67,9 @@ def print_fancy(a, b, ab_multadd):
 
 def main ():
     '''
-    line 66 is calling the function read_two_ints and storing the output into the variables x and y
-    line 67 is calling the function compute_multadd that has arguements, x and y and storing the output into xy_multadd
-    line 68 is calling the function print_fancy that has arguements x and y and xy_multadd
+    line 74 is calling the function read_two_ints and storing the output into the variables x and y
+    line 75 is calling the function compute_multadd that has arguements, x and y and storing the output into xy_multadd
+    line 76 is calling the function print_fancy that has arguements x and y and xy_multadd
     '''
     x,y=read_two_ints() 
     xy_multadd=compute_multadd(x,y)
